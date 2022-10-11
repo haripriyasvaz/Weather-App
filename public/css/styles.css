@@ -1,0 +1,76 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-image: url("https://images4.alphacoders.com/734/734010.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #5e5e5e;
+    border-top: 1px solid #5e5e5e;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 50px;
+
+}
+
+h1 {
+    font-size: 64px;
+    
+}
+
+header a {
+    color: #5e5e5e;
+    margin-right: 20px;
+    margin-left:5px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+.portrait {
+    width: 250px;
+
+}
+
+.input{
+    top: 0;
+    position: static;
+    margin-top: none;
+    margin-bottom:50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: center;
+    padding-bottom:16px;
+    border: solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #333333;
+    
+
+}
+.message{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding-left: 16px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+}
+    
