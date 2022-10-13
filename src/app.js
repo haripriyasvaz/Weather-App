@@ -2,6 +2,7 @@ const path=require('path')
 
 const express = require('express')
 const app = express()
+const port = process.env.PORT || 3000
 
 const chalk=require('chalk')
 const hbs=require('hbs')
@@ -18,7 +19,7 @@ const forecast=require('./utility/forecast')
 
 //listen to port 3000
 //1.localhost:3000/
-const port = 5000
+
 app.listen(port, ()=>{
     console.log(chalk.blue('You are listening to port =>'), port)
 })
