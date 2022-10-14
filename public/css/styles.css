@@ -8,7 +8,7 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    /*min-height: 100vh*/
 }
 
 .main-content {
@@ -51,7 +51,7 @@ header a {
 .input{
     top: 0;
     position: static;
-    margin-top: none;
+    margin-top: 16px;
     margin-bottom:50px;
     margin-left: 25%;
     margin-right: 25%;
