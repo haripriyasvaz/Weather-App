@@ -73,7 +73,7 @@ app.get('/help',(req,res)=>{
 //To load static html file type 'localhost:5000/###.html' in browser
 const index_file_path=path.join(__dirname,'../public')
 console.log(index_file_path)
-app.use(express.static('C:/Users/harip/Desktop/udemynode/web-server/public'))
+app.use(express.static(index_file_path))
 
 
 // To load API file type 'localhost:5000/weather' in browser
