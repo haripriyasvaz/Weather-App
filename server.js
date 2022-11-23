@@ -37,7 +37,7 @@ hbs.registerPartials(partialspath);
 //routing the handler
 //in the browser search: http://localhost:5000
 app.get("/", (req, res) => {
-  res.render("index", {
+  res.render("./templates/views/index", {
     title: "Weather App",
     name: "S.Haripriya",
   });
