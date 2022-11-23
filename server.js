@@ -36,20 +36,13 @@ hbs.registerPartials(partialspath);
 
 //routing the handler
 //in the browser search: http://localhost:5000
+
 app.get("/", (req, res) => {
-    res.send("Hi");
-  res.render("./templates/views/index", {
+  res.render("index", {
     title: "Weather App",
     name: "S.Haripriya",
   });
 });
-
-// app.get("/", (req, res) => {
-//   res.render("./templates/views/index", {
-//     title: "Weather App",
-//     name: "S.Haripriya",
-//   });
-// });
 
 //in the browser search: http://localhost:5000/about
 app.get("/about", (req, res) => {
